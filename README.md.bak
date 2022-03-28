@@ -3,7 +3,7 @@ prueba tn
 
 1)  Tener instalado python3.
 
-2)  Descargar proyecto instalar todas las librerias de python que se encuentran en el archivo requrements.txt.
+2)  Descargar proyecto instalar todas las librerias de python que se encuentran en el archivo requerements.txt.
 
 3)  Abrir un terminal o consola y ubicarse en la carpeta que contiene el proyecto  y ejecutar el archivo Dockerfile con el comando "docker build -t pruebatn ." 
     quitar las comillas , recordar que el demonio de docker esta arriba.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prueba TN</title>
+</head>
+<body>
+  
+    
+<h1>{{ elemento }}</h1>
+
+
+
+<table class="default" border="1" >
+    <tr>
+      <td>Id Cliente</td>
+      <td>Nombres</td>
+      <td>Correo</td>
+      <td>Genero</td>
+      <td>Compania</td>
+      <td>Cuidad</td>
+      <td>Titulo</td>
+      <td>Latitud</td>
+      <td>Longitud</td>
+    </tr>
+    {% for elemento in lista %}
+    <tr> 
+        <td>{{ elemento[1] }}</td>
+        <td>{{ elemento[2] }} {{ elemento[3] }}</td>
+        <td>{{ elemento[4] }}</td> 
+        <td>{{ elemento[5] }}</td>  
+        <td>{{ elemento[6] }}</td>  
+        <td>{{ elemento[7] }}</td>  
+        <td>{{ elemento[8] }}</td>  
+        <td>{{ elemento[9] }}</td>  
+        <td>{{ elemento[10] }}</td>     
+    </tr>
+   
+    {% endfor %}
+  </table>
+  
+</body>
+</html>
